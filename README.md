@@ -1,5 +1,4 @@
 # DotPresso
-Printing in fast Text-Mode under Windows using Matrix-Printers
 
 **Markdown und Text auf dem Nadeldrucker – im echten Textmodus, mit den eingebauten Druckerschriften.**
 
@@ -98,4 +97,3 @@ Fehler, Wünsche und Druckerberichte bitte in die [Issues](../../issues).
 ---
 
 © 2026 Andreas Keibel. DotPresso ist keine Open-Source-Software; dieses Repository dient der Veröffentlichung und dem Austausch. Der MatrixFont enthält Glyphen aus Terminus Font und GNU Unifont (SIL Open Font License 1.1).
-
