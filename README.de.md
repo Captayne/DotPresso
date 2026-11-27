@@ -33,6 +33,9 @@ Formatiert wird mit **Markdown**: `**fett**`, `*kursiv*`, Überschriften, Listen
 - Links im Text per Doppelklick öffnen
 - **Kleine Zettel und Endlospapier:** ein *Kalibrationsblatt* zeigt, wie weit der Drucker wirklich kommt – die Ränder werden je Drucker und Papierformat gespeichert, eigene Papierformate (z. B. „Zettel (90 x 90)“) lassen sich speichern
 - Programmcode 1:1 drucken: markieren, `</>` klicken
+- **Spaltensatz wie in der Zeitung** (2–6 Spalten, mit dünner Trennlinie) und **Schriften je Absatz oder Wort** – Courier, OCR-B, OCR-A, Orator … was der Drucker eben hat
+- Nur die Markierung drucken, z. B. eine Seite aus einem langen Text
+- Zoombare Vorschau, die sich wegklappen lässt
 - Oberfläche, Hilfe und Setup auf Deutsch und Englisch, umschaltbar per Knopf
 
 ## So sieht es aus
@@ -55,6 +58,8 @@ Formatiert wird mit **Markdown**: `**fett**`, `*kursiv*`, Überschriften, Listen
 | Druck über USB ohne Treiber | ✓ | ✓ |
 | Zentriert, rechtsbündig, Blocksatz | | ✓ |
 | Zeichendichte und Draft/LQ je Absatz, Draft/LQ wortweise | | ✓ |
+| Schrift je Absatz oder Wort | | ✓ |
+| Spaltensatz (2–6 Spalten, Trennlinie) | | ✓ |
 | Rahmen und Tabellen zeichnen, CSV → Rahmentabelle | | ✓ |
 | Aufräumen: Leerzeilen entfernen, Absätze verdichten | | ✓ |
 | Bilder aus der Zwischenablage und per Ziehen | | ✓ |
