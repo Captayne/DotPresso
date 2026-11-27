@@ -33,6 +33,9 @@ Formatting is done with **Markdown**: `**bold**`, `*italic*`, headings, lists an
 - Open links in the text with a double-click
 - **Small notes and continuous paper:** a *calibration sheet* finds out what your printer can really reach – margins are stored per printer and paper size, and you can save your own paper sizes (e.g. "Note (90 x 90)")
 - Print program code 1:1: select it, click `</>`
+- **Columns like a newspaper** (2–6, with a thin rule) and **typefaces per paragraph or word** – Courier, OCR-B, OCR-A, Orator … whatever your printer has
+- Print just a selection, e.g. one page of a long text
+- Zoomable preview that you can fold away
 - Interface, help and setup in English and German, switchable with one button
 
 ## What it looks like
@@ -55,6 +58,8 @@ Formatting is done with **Markdown**: `**bold**`, `*italic*`, headings, lists an
 | Printing via USB without a driver | ✓ | ✓ |
 | Centered, right-aligned, justified | | ✓ |
 | Pitch and Draft/LQ per paragraph, Draft/LQ per word | | ✓ |
+| Typeface per paragraph or word | | ✓ |
+| Columns (2–6, with rule) | | ✓ |
 | Drawing frames and tables, CSV → framed table | | ✓ |
 | Tidy up: remove blank lines, compact paragraphs | | ✓ |
 | Images from the clipboard and by drag & drop | | ✓ |
