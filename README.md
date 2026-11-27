@@ -1,99 +1,104 @@
 # DotPresso
 
-**Markdown und Text auf dem Nadeldrucker – im echten Textmodus, mit den eingebauten Druckerschriften.**
+🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
 
-Schneller als jeder Windows-Grafikdruck, gestochen scharf in LQ und mit dem Klang von 1990.
+**Markdown and text on your dot matrix printer – in true text mode, with the printer's built-in fonts.**
 
-![DotPresso mit Editor und Vorschau](bilder/DotPresso1.png)
+Faster than any Windows graphics printout, crisp in Letter Quality, and with the sound of 1990.
 
-[**⬇ DotPresso herunterladen**](../../releases/latest) · Windows 10/11 · Light kostenlos
+![DotPresso with editor and preview](bilder/DotPresso1.png)
 
-[![DotPresso in Aktion – Video auf YouTube ansehen](bilder/video_vorschau.jpg)](https://www.youtube.com/watch?v=TxHfdSMYmso)
+[**⬇ Download DotPresso**](../../releases/latest) · Windows 10/11 · Light is free
+
+[![DotPresso in action – watch the video on YouTube](bilder/video_vorschau.jpg)](https://www.youtube.com/watch?v=TxHfdSMYmso)
 
 ---
 
-## Was ist DotPresso?
+## What is DotPresso?
 
-Windows druckt auf Nadeldruckern meist als Grafik: langsam, laut und unscharf. DotPresso schickt dem Drucker stattdessen **Text und ESC/P-Befehle**. Er druckt dann mit seinen eigenen Schriften in Draft- oder Schönschrift (LQ), so wie früher unter DOS.
+Windows usually prints to dot matrix printers as graphics: slow, loud and fuzzy. DotPresso sends the printer **text and ESC/P commands** instead. The printer then uses its own fonts in Draft or Letter Quality (LQ), just like back in the DOS days.
 
-Formatiert wird mit **Markdown**: `**fett**`, `*kursiv*`, Überschriften, Listen und Tabellen. Rechts zeigt eine Vorschau den Umbruch genau so, wie er aufs Papier kommt.
+Formatting is done with **Markdown**: `**bold**`, `*italic*`, headings, lists and tables. On the right, a preview shows the line breaks exactly as they will come out on paper.
 
 
-## Funktionen
+## Features
 
-- Editor mit Vorschau, Zeilen- und Seitenumbruch wie auf dem Papier
-- Fett, kursiv, unterstrichen, breit, Überschriften, Listen, Tabellen
-- Zeichendichte 10–20 cpi, Draft oder Schönschrift (LQ)
-- Bilder als Punktgrafik, mit einstellbarer Helligkeit
-- MatrixFont: Sonderzeichen wie ★ ✓ € ½, die der Drucker selbst nicht kennt
-- **Copy&Print-Hotkey Strg+Alt+N:** Text in einem beliebigen Programm markieren, die Tasten drücken – DotPresso öffnet sich damit
-- **Druck über USB ohne Druckertreiber.** DotPresso erkennt geeignete Drucker selbst.
-- Links im Text per Doppelklick öffnen
+- Editor with preview, line and page breaks just like on paper
+- Bold, italic, underline, double width, headings, lists, tables
+- Pitch 10–20 cpi, Draft or Letter Quality (LQ)
+- Images as dot graphics, with adjustable brightness
+- MatrixFont: special characters such as ★ ✓ € ½ that the printer itself doesn't know
+- **Copy&Print hotkey Ctrl+Alt+N:** select text in any program, press the keys – DotPresso opens with it
+- **Printing via USB without a printer driver.** DotPresso detects suitable printers by itself.
+- Open links in the text with a double-click
+- **Small notes and continuous paper:** a *calibration sheet* finds out what your printer can really reach – margins are stored per printer and paper size, and you can save your own paper sizes (e.g. "Note (90 x 90)")
+- Print program code 1:1: select it, click `</>`
+- Interface, help and setup in English and German, switchable with one button
 
-## So sieht es aus
+## What it looks like
 
-**Ausdruck auf einem OKI Microline (24 Nadeln):** Eine Gute-Nacht-Geschichte mit Bild als Punktgrafik, zentrierten, rechtsbündigen und Blocksatz-Absätzen, verschiedenen Zeichendichten sowie Draft und Schönschrift auf einer Seite – alles im Textmodus. Den Text dazu gibt es als [Okto_Achti_Mopsi.md](bilder/Okto_Achti_Mopsi.md).
+**Printout on an OKI Microline (24 pins):** a bedtime story with an image as dot graphics, centered, right-aligned and justified paragraphs, different pitches, and Draft and Letter Quality on one page – all in text mode. The source text (in German) is available as [Okto_Achti_Mopsi.md](bilder/Okto_Achti_Mopsi.md).
 
-<img src="bilder/Okto_Achti_Mopsi_PrintOut.png" alt="Gescannter Ausdruck der Geschichte Okto, Achti und die letzten Sonnenstrahlen" width="600">
+<img src="bilder/Okto_Achti_Mopsi_PrintOut.png" alt="Scanned printout of the story Okto, Achti und die letzten Sonnenstrahlen" width="600">
 
-**Rahmen zeichnen (Pro):** Mit „Draw“ entstehen Linien und Rahmen direkt im Text – hier ein Grundriss. Die Vorlage liegt als [Grundriss.md](bilder/Grundriss.md) bei.
+**Drawing frames (Pro):** with "Draw", lines and frames are created right in the text – here a floor plan. The source is included as [Grundriss.md](bilder/Grundriss.md).
 
-![Grundriss mit Draw gezeichnet](bilder/Grundriss.png)
+![Floor plan drawn with Draw](bilder/Grundriss.png)
 
-## Light und Pro
+## Light and Pro
 
-| | Light (kostenlos) | Pro |
+| | Light (free) | Pro |
 |---|:---:|:---:|
-| Editor, Vorschau, alle Grundformate | ✓ | ✓ |
-| Eigene Bilder, Bildhelligkeit | ✓ | ✓ |
-| Copy&Print-Hotkey | ✓ | ✓ |
-| Druck über USB ohne Treiber | ✓ | ✓ |
-| Zentriert, rechtsbündig, Blocksatz | | ✓ |
-| Zeichendichte und Draft/LQ je Absatz, Draft/LQ wortweise | | ✓ |
-| Rahmen und Tabellen zeichnen, CSV → Rahmentabelle | | ✓ |
-| Aufräumen: Leerzeilen entfernen, Absätze verdichten | | ✓ |
-| Bilder aus der Zwischenablage und per Ziehen | | ✓ |
-| Netzwerkdrucker (Printserver, Port 9100) | | ✓ |
-| Druckdaten als .prn speichern und drucken | | ✓ |
+| Editor, preview, all basic formats | ✓ | ✓ |
+| Your own images, image brightness | ✓ | ✓ |
+| Copy&Print hotkey | ✓ | ✓ |
+| Printing via USB without a driver | ✓ | ✓ |
+| Centered, right-aligned, justified | | ✓ |
+| Pitch and Draft/LQ per paragraph, Draft/LQ per word | | ✓ |
+| Drawing frames and tables, CSV → framed table | | ✓ |
+| Tidy up: remove blank lines, compact paragraphs | | ✓ |
+| Images from the clipboard and by drag & drop | | ✓ |
+| Network printers (print server, port 9100) | | ✓ |
+| Saving and printing print data as .prn | | ✓ |
 
-Pro wird mit einem persönlichen Lizenzschlüssel freigeschaltet – offline, ohne Konto und ohne Internetverbindung. Den Schlüssel trägt man einmal im Programm ein.
+Pro is unlocked with a personal license key – offline, without an account and without an internet connection. You enter the key once in the program.
 
-**<u> Pro für nur 29€ kaufen</u>:** 
-1. Bestellung an a.keibel@systragon.de 
-2. 29€ Zahlung per Paypal an a.keibel@systragon.de  
-3. Lizenzschlüssel auf Klarnamen wird ihnen schnellstmöglich zugestellt. 
-4. Mit Eingabe des Schlüssels ist DotPresso Pro sofort freigeschaltet
+**Buy Pro for just €29:**
+1. Send your order to a.keibel@systragon.de
+2. Pay €29 via PayPal to a.keibel@systragon.de
+3. You will receive your license key, issued to your real name, as soon as possible.
+4. Enter the key and DotPresso Pro is unlocked immediately.
 
-## Geeignete Drucker
+## Suitable printers
 
-Nadeldrucker mit **Epson-ESC/P-Befehlssatz und 24 Nadeln**, zum Beispiel:
+Dot matrix printers with the **Epson ESC/P command set and 24 pins**, for example:
 
-- Epson LQ-Serie
-- OKI ML-Serie in Epson-Emulation
+- Epson LQ series
+- OKI ML series in Epson emulation
 - Star LC-24
 - Panasonic KX-P2xxx
 - NEC Pinwriter
 
-Bei 9-Nadel-Druckern (Epson FX, Star LC-10 …) geht Text meist, Bilder aber nicht. Steht der Drucker auf IBM-Emulation, am Bedienfeld oder per DIP-Schalter auf Epson umstellen.
+With 9-pin printers (Epson FX, Star LC-10 …) text usually works, but images don't. If the printer is set to IBM emulation, switch it to Epson on the control panel or with the DIP switches.
 
-Anschluss per **USB**, auch über ein USB-auf-Parallel-Kabel, oder mit Pro über einen **Netzwerk-Printserver**. Ein Druckertreiber ist nicht nötig.
+Connection via **USB**, also through a USB-to-parallel cable, or with Pro via a **network print server**. No printer driver is needed.
 
-> Dein Drucker läuft mit DotPresso – oder gerade nicht? Erzähl es in den [Issues](../../issues). So entsteht eine Liste geprüfter Drucker.
+> Does your printer work with DotPresso – or not quite? Tell us in the [Issues](../../issues). That way a list of tested printers grows.
 
 ## Installation
 
-1. [`DotPresso-…-Setup.exe`](../../releases/latest) herunterladen und starten.
-2. Drucker per USB anschließen und einschalten.
-3. DotPresso starten. Der Drucker erscheint in der Auswahl als `⚡ USB00x direkt – Hersteller Modell`.
-4. Zuerst **Schriftprobe drucken**: Sie zeigt, welche Schriften der Drucker wirklich hat.
-5. Dann die mitgelieferte **Testseite** öffnen und drucken.
+1. Download [`DotPresso-…-Setup.exe`](../../releases/latest) and run it. The setup asks for the language (English or German).
+2. Connect the printer via USB and switch it on.
+3. Start DotPresso. The printer appears in the list as `⚡ USB00x direkt – Manufacturer Model`.
+4. First click **Print font sample**: it shows which fonts the printer really has.
+5. Then open the included **Test page** and print it.
 
-Windows meldet beim ersten Start vielleicht „Der Computer wurde durch Windows geschützt“. Das liegt daran, dass das Programm (noch) nicht digital signiert ist. Mit „Weitere Informationen“ → „Trotzdem ausführen“ geht es weiter.
+On the first start, Windows may say "Windows protected your PC". That is because the program is not (yet) digitally signed. Click "More info" → "Run anyway" to continue.
 
-## Fragen und Fehler
+## Questions and bugs
 
-Fehler, Wünsche und Druckerberichte bitte in die [Issues](../../issues).
+Please report bugs, wishes and printer reports in the [Issues](../../issues).
 
 ---
 
-© 2026 Andreas Keibel. DotPresso ist keine Open-Source-Software; dieses Repository dient der Veröffentlichung und dem Austausch. Der MatrixFont enthält Glyphen aus Terminus Font und GNU Unifont (SIL Open Font License 1.1).
+© 2026 Andreas Keibel. DotPresso is not open-source software; this repository is for publication and exchange. The MatrixFont contains glyphs from Terminus Font and GNU Unifont (SIL Open Font License 1.1).
